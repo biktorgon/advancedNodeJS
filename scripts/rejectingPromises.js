@@ -15,6 +15,6 @@ delay(3)
     .then((message) => console.log(message))
     .then(() => 42)
     .then((number) => console.log(`hello world: ${number}`))
-    .then((error) => console.log(`error: ${error}`));
+    .catch((error) => console.log(`error: ${error}`));
 
 console.log('end first tick')
